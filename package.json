@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cucumber-js --require ./steps/*.js --tags @login --publish"
+    "test": "npx cucumber-js --require ./feature/*.feature --tags @login --publish"
   },
   "keywords": [],
   "author": "",
